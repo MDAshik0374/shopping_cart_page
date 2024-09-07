@@ -25,7 +25,6 @@ class ShoppingCart extends StatefulWidget {
 }
 
 class _ShoppingCartState extends State<ShoppingCart> {
-  List productName = ["Nike Air", "Nike Carter", "NIke Jordan"];
   final Map<String, Map<String, dynamic>> myMap = {
     "nike_air": {
       "name": "Nike Air",
