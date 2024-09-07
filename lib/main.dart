@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      scaffoldMessengerKey: GlobalKey<ScaffoldMessengerState>(),
+      //scaffoldMessengerKey: GlobalKey<ScaffoldMessengerState>(),
       home: ShoppingCart(),
     );
   }
